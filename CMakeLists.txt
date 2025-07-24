@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.31)
-project(LibraryManagementSystem)
+project(bookranker)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(LibraryManagementSystem main.cpp
+add_executable(bookranker main.cpp
         book.cpp
         book.h
         library.cpp
