@@ -18,7 +18,7 @@ class Book {
 
 
 public:
-    Book(std::string title, std::string author, int pages, int copies, long long int isbn = 0);
+    Book(std::string title, std::string author, int pages, int copies = 0, long long int isbn = 0);
     // Getters
     const std::string &get_title() const;
     const std::string &get_author() const;

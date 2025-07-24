@@ -17,6 +17,7 @@ int main() {
     auto b3 = std::make_shared<Book>("Harry Potter and the Sorcerer's Stone", "J.K. Rowling", 309, 1, 9780439708180);
     auto b4 = std::make_shared<Book>("Harry Potter and the Chamber of Secrets", "J.K. Rowling", 341, 1, 9780439064873);
     auto b5 = std::make_shared<Book>("Harry Potter and the Prisoner of Azkaban", "J.K. Rowling", 435, 1, 9780439136365);
+    auto b6 = std::make_shared<Book>("Don Quixote", "Miguel de Cervantes", 242); // Adding books without copies and isbn
 
     Library library;
     library.add_book(b1);
@@ -24,6 +25,7 @@ int main() {
     library.add_book(b3);
     library.add_book(b4);
     library.add_book(b5);
+    library.add_book(b6);
 
     library.searchT("harry potter");
     library.removeT("harry potter");
