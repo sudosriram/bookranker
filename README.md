@@ -224,7 +224,7 @@ library.summary_view();
 
 This is a fun side project that started with "what if I could search books like Google?" — and turned into a playground for C++20 features, design patterns, and just clean, satisfying code.
 
-No libraries, no fluff — just logic, fast search, and a ton of learning baked in. I could’ve built it out fully with a UI like I did in my [CryptWarden](https://github.com/cre8tivesriram/cryptwarden) C project, but this one was all about testing myself with OOP and writing DRY, maintainable code.
+No libraries, no fluff — just logic, fast search, and a ton of learning baked in. I could’ve built it out fully with a UI like I did in my [CryptWarden](https://github.com/sudosriram/cryptwarden) C project, but this one was all about testing myself with OOP and writing DRY, maintainable code.
 
 Have a nice day!
 
