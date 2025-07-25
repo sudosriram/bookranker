@@ -212,7 +212,7 @@ library.table_view();
 library.summary_view();
 ```
 
-- Quick snapshot of all books — title and author only
+- Quick snapshot of books in your library.
 
 - **Output:**
     
