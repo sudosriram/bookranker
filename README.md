@@ -170,7 +170,7 @@ library.searchI("9780525559474");
 ### By Title
 
 ```cpp
-library.removeT("harry potter");
+library.removeT("harry potter azkaban");
 ```
 
 - Uses same logic as searchT
